@@ -1,0 +1,45 @@
+/* Books Page Styles */
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  .book-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .book-item img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  
+.book-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.book-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.book-card h3 {
+  margin: 0.5rem 0 0;
+  text-align: center;
+}
+  

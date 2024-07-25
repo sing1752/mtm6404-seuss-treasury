@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    min-height: 100vh;        /* Full viewport height */
+    font-family: Arial, sans-serif;
+    text-align: center;       /* Center text if needed */
+  }
+  
+  nav {
+    background-color: #ffffff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .book-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .book-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .book-card h3 {
+    margin: 0.5rem 0 0;
+    text-align: center;
+  }
+  
+  .quotes-page {
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  
+  .quotes-page ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+  }
+  
+  .quotes-page li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: #dee0a5;
+    border-radius: 5px;
+  }

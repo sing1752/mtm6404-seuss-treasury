@@ -1,0 +1,12 @@
+/* Book Details Page Styles */
+.book-details {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .book-details img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
