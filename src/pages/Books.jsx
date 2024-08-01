@@ -9,7 +9,11 @@ const Books = () => {
     useEffect(() => {
       fetch('https://seussology.info/api/books')
         .then(response => response.json())
-        .then(data => setBooks(data));
+        .then(data => { setBooks(data); console.log(data); });
+
+    // Check the structure of the data setBooks(data); }); }, []); 
+
+
     }, []);
   
     return (
@@ -17,7 +21,7 @@ const Books = () => {
         <h1>Books</h1>
         <div>
           {books.map(book => (
-            <BookCard key={book.id} book={book} />
+            <BookCard key={book.id} book={book}/>
           ))}
         </div>
       </div>

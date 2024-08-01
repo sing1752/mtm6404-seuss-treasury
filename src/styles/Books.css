@@ -34,12 +34,19 @@
 }
 
 .book-card img {
-  max-width: 100%;
+  max-width: 220px;
   height: auto;
 }
 
 .book-card h3 {
   margin: 0.5rem 0 0;
   text-align: center;
+}
+
+.book-card a
+{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
   
